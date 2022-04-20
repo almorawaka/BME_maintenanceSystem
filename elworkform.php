@@ -59,33 +59,25 @@
           content="width=device-width, initial-scale=1.0"> 
 
 <style>
-table
+        table
+        th,td {
+        border: 1px solid black;
+        border-collapse: collapse;}
 
-th,td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
+        table.a {
+        table-layout: auto;
+        width: 180px;  }
 
-table.a {
-  table-layout: auto;
-  width: 180px;  
-}
+        table.b {
+        table-layout: fixed;
+        width: 180px;  }
 
-table.b {
-  table-layout: fixed;
-  width: 180px;  
-}
+        table.c {table-layout: auto;
+        border-collapse: collapse;
+        width: 100%;  }
 
-table.c {
-  table-layout: auto;
-  border-collapse: collapse;
-  width: 100%;  
-}
-
-table.d {
-  table-layout: fixed;
-  width: 100%;  
-}
+        table.d { table-layout: fixed;
+                width: 100%;  }
 </style>
 
 		  
@@ -194,22 +186,135 @@ table.d {
         </select>
 		<input type="submit" value="submit" name="submit">
         <br>
-    </form>
-        <h2>2</h2>
-    <form action="insert.php" method="post">
-                <label for="e1"></label>
-                <input type="text" name="emp1" id="e1"><br>
-                <label for="e2"></label>
-                <input type="text" name="emp2" id="e2"><br>
-                <label for="e3"></label>
-                <input type="text" name="emp3" id="e3"><br>
-                <label for="e4"></label>
-                <input type="text" name="emp4" id="e4"><br>
-                <label for="e5"></label>
-                <input type="text" name="emp5" id="e5"><br>
 
-            <input type="submit" value="Submit">
-        </form>
+        <h2>2</h2>
+        
+<table class="c">
+<tr>
+    <! <th>&nbsp;&nbsp;&nbsp;</th>
+  </tr>
+    <th>DATE/TIME</th>
+    <th>&nbsp;&nbsp;&nbsp;</th>
+	<th>&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;</th>
+	<th>&nbsp;&nbsp;&nbsp;</th>
+	<th>&nbsp;&nbsp;&nbsp;</th>
+	<th>&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;</th>
+	<th>&nbsp;&nbsp;&nbsp;</th>
+	<th>&nbsp;&nbsp;&nbsp;</th>
+	
+  </tr>
+  
+  <tr>
+    <th>STAFF </th>
+    <th>I</th>
+	<th>O</th>
+    <th>I</th>
+	<th>O</th>
+    <th>I</th>
+	<th>O</th>
+    <th>I</th>
+	<th>O</th>
+    <th>I</th>
+	<th>O</th>
+  </tr>
+
+  <tr>
+  <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+  </tr>
+  <tr>
+  <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+  </tr>
+  <tr>
+  <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+  </tr>
+  
+  <tr>
+  <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+  </tr>
+  <tr>
+  <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+  </tr>
+  
+   <tr>
+   <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+  </tr>
+   <tr>
+   <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+    <th>&nbsp;</th>
+	<th>&nbsp;</th>
+	<th>&nbsp;</th>
+  </tr>
+</table>
 
 <h2>3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spare Parts</h2>
 <table class="c">
